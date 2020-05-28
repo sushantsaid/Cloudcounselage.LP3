@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "frontend":"cd .. && cd timeapp && npm start",
+    "dev":"concurrently -n 'server,client' -c 'red,green' \" nodemon server.js \" \" npm run frontend\" "
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,42 @@
+body{
+  background-color: rgb(77, 74, 74);
+}
+
+.time-card{
+  flex:1;
+  flex-direction: column;
+  width: 300px;
+  height: 250px;
+  margin-top:130px;
+  box-shadow: 5px 5px 5px rgb(92, 90, 90);
+  border-radius: 20px;
+  background-color: rgb(44, 43, 42);
+  text-align: center;
+  display: inline-block;
+}
+
+.card-title{
+  color: aliceblue;
+  margin-top: 40px;
+}
+
+.row{
+  margin-top:30px ;
+  width: 100%;
+  text-align: center;
+}
+
+.box-container{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  background-color: black;
+  display: inline-block;
+}
+
+.box{
+  color: aliceblue; 
+}
